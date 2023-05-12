@@ -1,0 +1,41 @@
+body{
+    padding-top: 50px;
+}
+table{
+
+    text-align: center;
+}
+td{
+    padding: 10px;
+}
+tr.item{
+    border-top: 1px solid #5e5e5e;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+tr.item:hover{
+    background-color: #d9edf7;
+}
+
+tr.item td{
+    min-width: 150px;
+}
+
+tr.header{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: deeppink;
+    font-weight: bold;
+}
+.add, .nav-link {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    font-size: 30px;
+}
